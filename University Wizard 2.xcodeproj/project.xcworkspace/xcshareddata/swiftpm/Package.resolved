@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "setting",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aheze/Setting.git",
+      "state" : {
+        "revision" : "f506b13b2024fc3e7585b6e4f8290f6f1525127c",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "uionboarding",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lascic/UIOnboarding.git",
+      "state" : {
+        "revision" : "f8d0daabe45cba621b652f4d2fb481273949a732",
+        "version" : "2.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}

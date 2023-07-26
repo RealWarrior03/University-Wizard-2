@@ -10,11 +10,14 @@ import SwiftData
 
 @main
 struct University_Wizard_2App: App {
-
+    @StateObject var viewRouter = ViewRouter()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewRouter: viewRouter)
         }
-        .modelContainer(for: Item.self)
+        .modelContainer(
+            for: [Item.self, Assignment.self]
+        )
     }
 }

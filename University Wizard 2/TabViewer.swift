@@ -8,11 +8,34 @@
 import SwiftUI
 
 struct TabViewer: View {
+    @StateObject var viewRouter: ViewRouter
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        GeometryReader { geo in
+            VStack {
+                switch viewRouter.currentPage {
+                case .home:
+                    Home()
+                case .assignments:
+                    AssignmentList()
+                case .settings:
+                    Settings()
+                }
+            }
+            .overlay {
+                VStack {
+                    Spacer()
+                    ZStack {
+                        CustomTabView(viewRouter: viewRouter)
+                            .frame(width: geo.size.width*0.9, height: geo.size.height*0.1)
+                            .padding(.bottom, 10)
+                    }
+                }//.frame(width: geo.size.width*0.9)
+            }
+        }
     }
 }
 
 #Preview {
-    TabViewer()
+    TabViewer(viewRouter: ViewRouter())
 }

@@ -14,9 +14,6 @@ class ViewRouter: ObservableObject {
 
 enum Page {
     case home
-    case homework
-    case exams
-    case keycards
-    case timer
+    case assignments
     case settings
 }

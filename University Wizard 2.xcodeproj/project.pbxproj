@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F66BE6762A4B8479004F1F37 /* Setting in Frameworks */ = {isa = PBXBuildFile; productRef = F66BE6752A4B8479004F1F37 /* Setting */; };
+		F66BE6782A4BE83D004F1F37 /* FunctionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66BE6772A4BE83D004F1F37 /* FunctionManager.swift */; };
+		F66BE67B2A4BE95F004F1F37 /* UIOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = F66BE67A2A4BE95F004F1F37 /* UIOnboarding */; };
+		F67BA2352A4B1C7800276121 /* AssignmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67BA2342A4B1C7800276121 /* AssignmentList.swift */; };
+		F67BA2372A4B1C9900276121 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67BA2362A4B1C9900276121 /* Settings.swift */; };
 		F68A31682A4589B30041829D /* University_Wizard_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A31672A4589B30041829D /* University_Wizard_2App.swift */; };
 		F68A316A2A4589B30041829D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A31692A4589B30041829D /* Item.swift */; };
 		F68A316C2A4589B30041829D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A316B2A4589B30041829D /* ContentView.swift */; };
@@ -15,6 +20,17 @@
 		F68A317C2A4589B70041829D /* University_Wizard_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A317B2A4589B70041829D /* University_Wizard_2Tests.swift */; };
 		F68A31862A4589B70041829D /* University_Wizard_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A31852A4589B70041829D /* University_Wizard_2UITests.swift */; };
 		F68A31882A4589B70041829D /* University_Wizard_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A31872A4589B70041829D /* University_Wizard_2UITestsLaunchTests.swift */; };
+		F68A31952A458B6B0041829D /* TabViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A31942A458B6A0041829D /* TabViewer.swift */; };
+		F68A31992A458CD10041829D /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A31982A458CD10041829D /* ViewRouter.swift */; };
+		F68A319D2A458E9F0041829D /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A319C2A458E9F0041829D /* MailView.swift */; };
+		F68A319F2A458EA40041829D /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A319E2A458EA40041829D /* SafariView.swift */; };
+		F68A31A22A458EF10041829D /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A31A12A458EF10041829D /* CustomTabView.swift */; };
+		F68A31A42A458FB50041829D /* CustomTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A31A32A458FB50041829D /* CustomTabItem.swift */; };
+		F68A31A82A4594880041829D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A31A72A4594880041829D /* Home.swift */; };
+		F6C18BBC2A4C9626000FF90B /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C18BBB2A4C9626000FF90B /* Assignment.swift */; };
+		F6C18BBE2A4CBF05000FF90B /* NewAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C18BBD2A4CBF05000FF90B /* NewAssignment.swift */; };
+		F6D4C6FD2A716B4D0005446B /* AssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4C6FC2A716B4D0005446B /* AssignmentView.swift */; };
+		F6D4C6FF2A716EE70005446B /* AssignmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D4C6FE2A716EE70005446B /* AssignmentDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F66BE6772A4BE83D004F1F37 /* FunctionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionManager.swift; sourceTree = "<group>"; };
+		F67BA2342A4B1C7800276121 /* AssignmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentList.swift; sourceTree = "<group>"; };
+		F67BA2362A4B1C9900276121 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		F68A31642A4589B30041829D /* University Wizard 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "University Wizard 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68A31672A4589B30041829D /* University_Wizard_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University_Wizard_2App.swift; sourceTree = "<group>"; };
 		F68A31692A4589B30041829D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -47,6 +66,17 @@
 		F68A31812A4589B70041829D /* University Wizard 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "University Wizard 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68A31852A4589B70041829D /* University_Wizard_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University_Wizard_2UITests.swift; sourceTree = "<group>"; };
 		F68A31872A4589B70041829D /* University_Wizard_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University_Wizard_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F68A31942A458B6A0041829D /* TabViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewer.swift; sourceTree = "<group>"; };
+		F68A31982A458CD10041829D /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		F68A319C2A458E9F0041829D /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		F68A319E2A458EA40041829D /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		F68A31A12A458EF10041829D /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		F68A31A32A458FB50041829D /* CustomTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabItem.swift; sourceTree = "<group>"; };
+		F68A31A72A4594880041829D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F6C18BBB2A4C9626000FF90B /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		F6C18BBD2A4CBF05000FF90B /* NewAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAssignment.swift; sourceTree = "<group>"; };
+		F6D4C6FC2A716B4D0005446B /* AssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentView.swift; sourceTree = "<group>"; };
+		F6D4C6FE2A716EE70005446B /* AssignmentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F66BE6762A4B8479004F1F37 /* Setting in Frameworks */,
+				F66BE67B2A4BE95F004F1F37 /* UIOnboarding in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +106,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F67BA2322A4B1C5C00276121 /* Assignments */ = {
+			isa = PBXGroup;
+			children = (
+				F67BA2342A4B1C7800276121 /* AssignmentList.swift */,
+				F6D4C6FC2A716B4D0005446B /* AssignmentView.swift */,
+				F6D4C6FE2A716EE70005446B /* AssignmentDetailView.swift */,
+				F6C18BBD2A4CBF05000FF90B /* NewAssignment.swift */,
+			);
+			path = Assignments;
+			sourceTree = "<group>";
+		};
+		F67BA2332A4B1C6600276121 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F67BA2362A4B1C9900276121 /* Settings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		F68A315B2A4589B30041829D = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +148,14 @@
 		F68A31662A4589B30041829D /* University Wizard 2 */ = {
 			isa = PBXGroup;
 			children = (
+				F6C18BBA2A4C9614000FF90B /* SwiftData */,
 				F68A31672A4589B30041829D /* University_Wizard_2App.swift */,
-				F68A31692A4589B30041829D /* Item.swift */,
 				F68A316B2A4589B30041829D /* ContentView.swift */,
+				F68A31942A458B6A0041829D /* TabViewer.swift */,
+				F68A31A52A4594780041829D /* Tabs */,
+				F68A31A02A458ED70041829D /* Custom Structs */,
+				F68A319A2A458E630041829D /* Backend */,
+				F68A319B2A458E830041829D /* Views */,
 				F68A316D2A4589B60041829D /* Assets.xcassets */,
 				F68A316F2A4589B60041829D /* University_Wizard_2.entitlements */,
 				F68A31702A4589B60041829D /* Preview Content */,
@@ -132,6 +188,60 @@
 			path = "University Wizard 2UITests";
 			sourceTree = "<group>";
 		};
+		F68A319A2A458E630041829D /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				F68A31982A458CD10041829D /* ViewRouter.swift */,
+				F66BE6772A4BE83D004F1F37 /* FunctionManager.swift */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		F68A319B2A458E830041829D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F68A319C2A458E9F0041829D /* MailView.swift */,
+				F68A319E2A458EA40041829D /* SafariView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F68A31A02A458ED70041829D /* Custom Structs */ = {
+			isa = PBXGroup;
+			children = (
+				F68A31A12A458EF10041829D /* CustomTabView.swift */,
+				F68A31A32A458FB50041829D /* CustomTabItem.swift */,
+			);
+			path = "Custom Structs";
+			sourceTree = "<group>";
+		};
+		F68A31A52A4594780041829D /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				F68A31A62A4594820041829D /* Home */,
+				F67BA2322A4B1C5C00276121 /* Assignments */,
+				F67BA2332A4B1C6600276121 /* Settings */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		F68A31A62A4594820041829D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F68A31A72A4594880041829D /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F6C18BBA2A4C9614000FF90B /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				F68A31692A4589B30041829D /* Item.swift */,
+				F6C18BBB2A4C9626000FF90B /* Assignment.swift */,
+			);
+			path = SwiftData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,6 +258,10 @@
 			dependencies = (
 			);
 			name = "University Wizard 2";
+			packageProductDependencies = (
+				F66BE6752A4B8479004F1F37 /* Setting */,
+				F66BE67A2A4BE95F004F1F37 /* UIOnboarding */,
+			);
 			productName = "University Wizard 2";
 			productReference = F68A31642A4589B30041829D /* University Wizard 2.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +334,10 @@
 				Base,
 			);
 			mainGroup = F68A315B2A4589B30041829D;
+			packageReferences = (
+				F66BE6742A4B8479004F1F37 /* XCRemoteSwiftPackageReference "Setting" */,
+				F66BE6792A4BE95F004F1F37 /* XCRemoteSwiftPackageReference "UIOnboarding" */,
+			);
 			productRefGroup = F68A31652A4589B30041829D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -263,8 +381,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				F68A316A2A4589B30041829D /* Item.swift in Sources */,
+				F68A319D2A458E9F0041829D /* MailView.swift in Sources */,
+				F68A31A82A4594880041829D /* Home.swift in Sources */,
+				F6D4C6FF2A716EE70005446B /* AssignmentDetailView.swift in Sources */,
+				F6D4C6FD2A716B4D0005446B /* AssignmentView.swift in Sources */,
+				F67BA2352A4B1C7800276121 /* AssignmentList.swift in Sources */,
 				F68A31682A4589B30041829D /* University_Wizard_2App.swift in Sources */,
+				F6C18BBE2A4CBF05000FF90B /* NewAssignment.swift in Sources */,
+				F68A31A22A458EF10041829D /* CustomTabView.swift in Sources */,
+				F67BA2372A4B1C9900276121 /* Settings.swift in Sources */,
+				F68A31A42A458FB50041829D /* CustomTabItem.swift in Sources */,
+				F6C18BBC2A4C9626000FF90B /* Assignment.swift in Sources */,
 				F68A316C2A4589B30041829D /* ContentView.swift in Sources */,
+				F66BE6782A4BE83D004F1F37 /* FunctionManager.swift in Sources */,
+				F68A31992A458CD10041829D /* ViewRouter.swift in Sources */,
+				F68A31952A458B6B0041829D /* TabViewer.swift in Sources */,
+				F68A319F2A458EA40041829D /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +560,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = University;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -436,20 +570,23 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "hkrieger.University-Wizard-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,6 +603,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = University;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -474,20 +613,23 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "hkrieger.University-Wizard-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -621,6 +763,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F66BE6742A4B8479004F1F37 /* XCRemoteSwiftPackageReference "Setting" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aheze/Setting.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+		F66BE6792A4BE95F004F1F37 /* XCRemoteSwiftPackageReference "UIOnboarding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lascic/UIOnboarding.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F66BE6752A4B8479004F1F37 /* Setting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F66BE6742A4B8479004F1F37 /* XCRemoteSwiftPackageReference "Setting" */;
+			productName = Setting;
+		};
+		F66BE67A2A4BE95F004F1F37 /* UIOnboarding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F66BE6792A4BE95F004F1F37 /* XCRemoteSwiftPackageReference "UIOnboarding" */;
+			productName = UIOnboarding;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F68A315C2A4589B30041829D /* Project object */;
 }
